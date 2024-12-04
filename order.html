@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Hypnotized.Studios</title>
+        <link rel="stylesheet" href="order.css">
+    </head>
+<body>
+    <nav>
+        </label>
+        <label class="logo">Hypnotized</label>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="order.php">View Order</a></li>
+        </ul>
+    </nav>
+</body>
+<body>
+    <h2>Order Now</h2>
+    <section class="order">
+        <form action="order.php" method="post" class="form">
+            <div class="input-box">
+            </div>
+            <div class="input-box">
+                <label for="name">Name of the Reciever:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+                <label for="items">Select item:</label>
+                <select id="teestyle" name="teestyle" required>
+                    <option value="" disabled selected>Select the style you want to buy</option>
+                    <option value="item1">Suki Pink Honda S2000(White)</option>
+                    <option value="item1.1">Suki Pink Honda S2000(Black)</option>
+                    <option value="item2">Honda Civic EG6(White)</option>
+                    <option value="item1.2">Honda Civic EG6(Black)</option>
+                    <option value="item3">Mazda RX7 Veilside Tokyo Drift(White)</option>
+                    <option value="item1.3">Mazda RX7 Veilside Tokyo Drift(Black)</option>
+                    <option value="item4">Bullet Nissan Skyline GT-R R34(White)</option>
+                    <option value="item1.4">Bullet Nissan Skyline GT-R R34(Black)</option>
+                    <option value="item5">Ferrari F40(White)</option>
+                    <option value="item1.5">Ferrari F40(Black)</option>
+                    <option value="item6">Porsche 911 GT3 RS(White)</option>
+                    <option value="item1.6">Porsche 911 GT3 RS(Black)</option>
+                    <option value="item7">RWB PORSCHE 993 Turbo(White)</option>
+                    <option value="item1.7">RWB PORSCHE 993 Turbo(Black)</option>
+                    <option value="item8">The Akagi RedSuns(White)</option>
+                    <option value="item1.8">The Akagi RedSuns(Black)</option>
+                    <option value="item9">Honda Civic EK9 Type-R(White)</option>
+                    <option value="item1.9">Honda Civic EK9 Type-R(Black)</option>
+                    <option value="item10">Nissan Skyline GT-R R34(White)</option>
+                    <option value="item1.10">Nissan Skyline GT-R R34(Black)</option>
+                </select>
+            </div> 
+            <div class="input-box">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="input-box">
+                <label for="address">Address:</label>
+                <input type="address" id="address" name="address" placeholder="Enter your Address" required>
+            </div>
+            <div class="input-box">
+                <label for="zip">Zipcode:</label>
+                <input type="zip" id="zip" name="zip" placeholder="Enter Zipcode" required>
+            </div>
+            
+            <div class="input-box">
+                <label for="size">Select Size:</label>
+                <select id="size" name="size" required>
+                    <option value="" disabled selected>Select a size</option>
+                    <option value="XSmall">₱379 / XS</option>
+                    <option value="Small">₱379 / S</option>
+                    <option value="Medium">₱379 / M</option>
+                    <option value="Large">₱379 / L</option>
+                    <option value="XLarge">₱379 / XL</option>
+                    <option value="2XLarge">₱379 / 2XL</option>
+                    <option value="3XLarge">₱379 / 3XL</option>
+                    <option value="4XLarge">₱399 / 4XL</option>
+                    <option value="5XLarge">₱420 / 5XL</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label for="method">Select Method:</label>
+                <select id="method" name="method" required>
+                    <option value="" disabled selected>Select Method Pick up or Deliver</option>
+                    <option value="Pick Up">Pick up at store</option>
+                    <option value="Deliver">Deliver at you House</option>
+                </select>
+            </div>
+                <button type="submit" name="save">Submit</button>
+        </form>
+    </section>
+</body>
+
+
+</html>
